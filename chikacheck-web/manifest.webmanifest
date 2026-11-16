@@ -1,0 +1,18 @@
+{
+  "name": "치카체크",
+  "short_name": "치카체크",
+  "description": "어린이 정량 치약 디스펜서와 함께 쓰는 양치 기록 웹",
+  "lang": "ko",
+  "start_url": "./#/timer",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FBF4EC",
+  "theme_color": "#FBF4EC",
+  "icons": [
+    { "src": "assets/icons/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

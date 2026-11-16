@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 홈 화면·maskable 아이콘: 배경을 꽉 채우고 토끼를 안전 영역(가운데 80%) 안에 둔다 -->
+  <rect width="512" height="512" fill="#1E9E6E"/>
+  <g transform="translate(256 262) scale(0.74) translate(-256 -262)">
+    <g stroke="#6B5646" stroke-width="12" stroke-linejoin="round">
+      <rect x="150" y="52" width="76" height="210" rx="38" fill="#FFF8EE" transform="rotate(-10 188 262)"/>
+      <rect x="286" y="52" width="76" height="210" rx="38" fill="#FFF8EE" transform="rotate(10 324 262)"/>
+    </g>
+    <rect x="170" y="84" width="36" height="146" rx="18" fill="#F6B9B9" transform="rotate(-10 188 262)"/>
+    <rect x="306" y="84" width="36" height="146" rx="18" fill="#F6B9B9" transform="rotate(10 324 262)"/>
+    <circle cx="256" cy="304" r="150" fill="#FFF8EE" stroke="#6B5646" stroke-width="12"/>
+    <circle cx="200" cy="292" r="17" fill="#2B2520"/>
+    <circle cx="312" cy="292" r="17" fill="#2B2520"/>
+    <ellipse cx="166" cy="342" rx="27" ry="17" fill="#F6B9B9"/>
+    <ellipse cx="346" cy="342" rx="27" ry="17" fill="#F6B9B9"/>
+    <ellipse cx="256" cy="328" rx="19" ry="14" fill="#EE8A73"/>
+    <path d="M230 360 q13 15 26 0 q13 15 26 0" fill="none" stroke="#6B5646" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

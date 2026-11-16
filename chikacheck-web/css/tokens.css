@@ -1,0 +1,113 @@
+/* 디자인 토큰 — 색·간격·반경·글자·레이아웃 변수 (DESIGN.md 1~4장). 색 값은 이 파일에만 쓴다 */
+:root {
+  /* 색 — DESIGN.md 1장 */
+  --bg: #FBF4EC;
+  --surface: #FFFFFF;
+  --line: #EFE3D3;
+  --ink: #2B2520;
+  --ink-sub: #75695F; /* DESIGN 값 #8C8177은 흰 배경 대비 3.8:1이라, 작은 글자 대비 기준(4.5:1)에 맞게 조금 진하게 */
+  --green: #1E9E6E;
+  --green-soft: #E3F4EC;
+  --coral: #EE8A73;
+  --coral-soft: #FDEDE8;
+  --purple: #9B7BD8;
+  --gray: #E6DED3;
+  --pink: #F6B9B9;
+  --danger: #D9534F;
+
+  /* 색 — 작은 글자용 진한 버전 (배경 대비 4.5:1 이상) */
+  --green-ink: #137A54;
+  --green-line: #BFE3D2;
+  --coral-ink: #A44A35;
+  --coral-line: #F6C9BD;
+  --danger-ink: #A3302C;
+  --danger-soft: #FBE9E8;
+
+  /* 색 — 캐릭터·가상 본체 (본체 디자인: 크림 토끼 본체, 민트 칫솔 컵, 코랄 포인트) */
+  --cream: #FFF8EE;
+  --cream-deep: #F1E2CC;
+  --brown: #6B5646;
+  --mint: #BFE8DA;
+  --mint-deep: #86CDB5;
+  --gold: #F4C24E;
+  --led-bg: #211C19;
+  --led-on: #74F7B5;
+  --led-glow: rgba(116, 247, 181, 0.7);
+
+  /* 색 — 치카 타임 이빨 친구·입 지도 (장난감 치아 모형 같은 파스텔) */
+  --tooth: #FFFDF8;
+  --tooth-line: #D9C8B2;
+  --toy-tooth: #FFFFFF;
+  --toy-gum: #FFC6D3;
+  --toy-gum-top: #FFD9E2;
+  --toy-hot: #BDF0DE;
+  --toy-hot-deep: #5FCFAA;
+  --cheek-skin: #FFE1D4;
+  --tongue: #EE9FA2;
+  --tongue-mouth: #7A3440;
+  --blush: #F7A7A0;
+  --foam: #FFFFFF;
+  --foam-line: #CFE3EC;
+  --bristle-line: #9BB9C9;
+
+  /* 덮개·그림자 */
+  --scrim: rgba(43, 37, 32, 0.45);
+  --hover: rgba(43, 37, 32, 0.05);
+  --shadow-card: 0 1px 2px rgba(43, 37, 32, 0.05);
+  --shadow-knob: 0 1px 3px rgba(43, 37, 32, 0.25);
+  --shadow-float: 0 10px 30px rgba(43, 37, 32, 0.16);
+  --shadow-sheet: 0 -6px 24px rgba(43, 37, 32, 0.12);
+  --shadow-phone: 0 30px 70px rgba(43, 37, 32, 0.18), 0 2px 6px rgba(43, 37, 32, 0.06);
+
+  /* 간격 — 4px 단위 (DESIGN.md 3장) */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 20px;
+  --s6: 24px;
+  --s7: 32px;
+  --s8: 48px;
+
+  /* 반경 */
+  --r-sm: 12px;
+  --r-card: 18px;
+  --r-lg: 24px;
+  --r-phone: 40px;
+  --r-pill: 999px;
+
+  /* 글자 — DESIGN.md 2장 */
+  --font: "Pretendard Variable", Pretendard, system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  --fs-display: 56px;
+  --fs-title: 22px;
+  --fs-stat: 28px;
+  --fs-body: 16px;
+  --fs-caption: 13px;
+  --fs-small: 12px;
+  --fs-button-lg: 19px; /* 초록 바탕 흰 글자가 '큰 글자' 대비 기준(3:1)을 넘는 크기 */
+
+  /* 크기·레이아웃 — DESIGN.md 3~4장 */
+  --touch: 48px;
+  --phone-w: 420px;
+  --phone-h: 880px;
+  --device-w: 360px;
+  --tabbar-h: 64px;
+  --sheet-peek: 56px;
+  --ring-size: 200px;
+  --ring-size-sm: 132px; /* 양치 중: 이빨 친구 그림에 자리를 내준다 */
+  --fs-display-sm: 38px;
+
+  /* 움직임 — DESIGN.md 7장 */
+  --dur: 200ms;
+  --ease: ease-out;
+}
+
+/* 1920px 발표 화면에서 폰·본체가 너무 작아 보이지 않게 */
+@media (min-width: 1600px) {
+  :root {
+    --phone-w: 460px;
+    --phone-h: 940px;
+    --device-w: 420px;
+  }
+}
